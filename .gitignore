@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+.pytest_cache/
+
+# Production Build Output
+dist/
+frontend/dist/
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.local
+
+# Temporary / Scratch Files
+*_temp.html
+convert_to_pdf.py
+
+# Editor & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
